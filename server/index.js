@@ -23,6 +23,7 @@ app.use(cors(
 
 app.get('/', (req, res) => {
   res.send("This is a Tech Solver API");
+  res.json("Hello")
 });
 
 app.use('/user', userRoutes);
